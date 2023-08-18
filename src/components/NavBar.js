@@ -4,7 +4,6 @@ import "../css/NavBar.css"
 
 export default function NavBar() {
   const animateUnderline = (targetSelector) => {
-    console.log(targetSelector)
     gsap.to(`.${targetSelector}`, {
       width: "100%",
       duration: 0.5,
@@ -12,7 +11,6 @@ export default function NavBar() {
     })
   }
   const animateUnderlineRevert = (targetSelector) => {
-    console.log(targetSelector)
     gsap.to(`.${targetSelector}`, {
       width: "0",
       duration: 0.5,
