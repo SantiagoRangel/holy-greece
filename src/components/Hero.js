@@ -76,11 +76,25 @@ export default function Hero() {
 
             <button className="hero-cta hover">
               Become a citizen
-              <img
+              {/* <img
                 className="cta-arrow"
                 src="/assets/arrow-sm.png"
                 alt="arrow"
-              />
+              /> */}
+              <svg
+                className="cta-arrow"
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  id="&#226;&#134;&#151;"
+                  d="M1.28625 0.148438H13.9088V12.6584H11.7488V4.24344L11.5013 3.99594L1.64625 13.8509L0.09375 12.2984L9.94875 2.44344L9.70125 2.19594H1.28625V0.148438Z"
+                  fill="#2e3233"
+                />
+              </svg>
             </button>
           </div>
         </div>
